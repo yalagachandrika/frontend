@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+   --deep-twilight: #03045eff;
+   --bright-teal-blue: #0077b6ff;
+   --turquoise-surf: #00b4d8ff;
+   --frosted-blue: #90e0efff;
+   --light-cyan: #caf0f8ff;
+}
+.heading{
+ text-align: center;
+ margin-bottom:20px;
+}
+
+.imagecontainer{
+    height:200px;
+    width:200px;
+    border-radius: 40%;
+    border: 1px solid black;
+    margin:0 auto;
+}
+.my_image{
+    height:200px;
+    width:100%;
+    border-radius:40%;
+}
+.hero,.skills{
+    height:100px;
+    width:90%;
+    border-radius: 14px;
+    padding: 10px;
+    border:2px solid lightgray;
+    margin:0 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.projects{
+    height:400px;
+    width:90vw;
+    display:flex;
+    gap: 20px;
+    padding:10px;
+    margin:0 auto;
+    border-radius: 14px;
+    border: 1px solid lightgray ;
+}
+
+.project1,.project2,.project3{
+ 
+    height:300px;
+    width:50%;
+    padding:4px;
+     border: 1px solid lightgray ;
+     border-radius: 14px;
+}
